@@ -59,6 +59,8 @@ public class DiaryApplication {
                 case 1:
                     System.out.println("What is the title of the entry?");
                     String title = scanner.nextLine();
+                    scanner.nextLine();
+
                     System.out.println("What is the content of the entry?");
                     String content = scanner.nextLine();
 
@@ -73,6 +75,7 @@ public class DiaryApplication {
 
                     System.out.println("Enter the updated title:");
                     String updatedTitle = scanner.next();
+                    scanner.nextLine();
 
                     System.out.println("Enter the updated content:");
                     String updatedContent = scanner.nextLine();
